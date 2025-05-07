@@ -84,9 +84,7 @@ const newHire: Employee = {
 };
 ```
 
-📌 **Use Case**: Great when building types that share structures — like merging roles, privileges, or extended object definitions.
-
----
+📌 **Use Case**: Great when building types that share structures like merging roles, privileges, or extended object definitions.
 
 ## ✅ Conclusion
 
@@ -97,7 +95,8 @@ Both **Union** and **Intersection** types are fundamental to writing clean, scal
 - Reduce duplication and increase code readability
 
 ---
-
-
 ---
+---
+
+
 # 🧩 Some differences between interfaces and types in TypeScript
