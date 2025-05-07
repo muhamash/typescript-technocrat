@@ -88,16 +88,6 @@ const newHire: Employee = {
 
 ---
 
-## 🧠 Union vs. Intersection at a Glance
-
-| Feature               | Union (`|`)                         | Intersection (`&`)                        |
-|----------------------|--------------------------------------|-------------------------------------------|
-| Description          | Either one type or another           | Must satisfy all combined types           |
-| Use case             | Flexible input/output types          | Merging type definitions                 |
-| Example              | `string | number`                    | `{name: string} & {age: number}`          |
-
----
-
 ## ✅ Conclusion
 
 Both **Union** and **Intersection** types are fundamental to writing clean, scalable TypeScript code. They allow you to:
