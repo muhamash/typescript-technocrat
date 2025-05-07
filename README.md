@@ -90,12 +90,14 @@ const newHire: Employee = {
 
 ## ✅ Conclusion
 
-Both **Union** and **Intersection** types are fundamental to writing clean, scalable TypeScript code. They allow you to:
+Both **Union** and **Intersection** types are fundamental to writing clean, scalable TypeScript code. They allow to:
 
 - Write safer logic by clearly defining the possible types
 - Reuse and combine existing types for more complex structures
 - Reduce duplication and increase code readability
 
-If you're serious about mastering TypeScript, understanding how and when to use these types will take your skills to the next level.
+---
+
 
 ---
+# 🧩 Some differences between interfaces and types in TypeScript
