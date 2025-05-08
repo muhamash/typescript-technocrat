@@ -263,15 +263,6 @@ country:  "Bangladesh"
 
 
 # Example of using Union and Intersection Types in TypeScript
-
-  
-
-## Introduction
-
-  
-
-In TypeScript, **Union** and **Intersection** types help us combine multiple types in flexible and powerful and reusable ways that help us to create our code, which is **more maintainable and more secured with defining complex data structures or API response types**. These features allow developers to build scalable and type-safe code by **merging multiple types** or **allowing multiple possibilities**.
-
   
 
 Imagine that there is an application where one variable can be a `string`, a `number`, or even an `object`. Or maybe you want to create a type that must required properties from two or more `types` which are defined on various or multiple variables. That's why **Union (`|`)** and **Intersection (`&`)** types come in.
