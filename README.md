@@ -84,7 +84,7 @@ const user: User = {
 
  **Characteristics**
 1. Can alias different types of data like primitives, objects, tupples, functions etc.
-2. Can create complex combinations using Union `|` or Intersaction `&`.
+2. Can create complex combinations using Union `|` or Intersection `&`.
 3. Can not declare the same multiple type alias at a time.
 4. Can take advantage of mapped typing like generics types, conditional types etc..
   
@@ -167,7 +167,7 @@ country:  "Bangladesh"
 ---
 ***Conclusion***
 
- Types doesn't support inheritensnce because type defined the data types only better interfaces has capability to extend its property.But types allows to integrate primitive types like number, strings including union types, intersection types, tupples etc where interfaces are less flexible andn support multiple merging types. There will be type  merging conflict when same key assigned in terfaces but in type alias it will automatically detected the key.Interfaces and type aliases can be used to implement a class but there is a difference when a object trying to implement union types because TypeScript compiler expect a specific data shape.Types are best for mapped with generics types when developers required to have struggle with unknown  types.But both are usefull and rapidly used in Typescript, like i should say you can't imagine Typescript without types and interfaces.
+ Types doesn't support inheritance because type defined the data types only better interfaces has capability to extend its property.But types allows to integrate primitive types like number, strings including union types, intersection types, tupples etc where interfaces are less flexible and support multiple merging types. There will be type  merging conflict when same key assigned in interfaces but in type alias it will automatically detected the key.Interfaces and type aliases can be used to implement a class but there is a difference when a object trying to implement union types because TypeScript compiler expect a specific data shape.Types are best for mapped with generics types when developers required to have struggle with unknown  types.But both are usefull and rapidly used in Typescript, like i should say you can't imagine Typescript without types and interfaces.
 
 ---
 ---
