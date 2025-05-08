@@ -43,7 +43,6 @@ interface ExtendedUser extends User {
 
   
 
-Here, `ID` can be  a string **or** a number **or** a boolean value.
 
   
 
@@ -108,8 +107,6 @@ type  User  =  ContactInfo  &  Profile;
 ```
 
   
-
-Now, `User` must have **both**  `email` and `username`.
 
   
 
@@ -208,8 +205,6 @@ type  ID  =  string  |  number  |  boolean;
 
   
 
-Here, `ID` can be  a string **or** a number **or** a boolean value.
-
   
 
 ###  Example Code
@@ -275,7 +270,6 @@ type  User  =  ContactInfo  &  Profile;
 
   
 
-Now, `User` must have **both**  `email` and `username`.
 
   
 
